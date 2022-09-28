@@ -2202,3 +2202,15 @@ a.active{
     padding: 2rem;
   }
 }
+.classes-copy{
+    font-size:1.4rem;
+    padding-top: 0rem;
+    font-weight: 600;
+}
+.note{
+    font-size: 1.2rem;
+    color: red;
+    padding-top: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
