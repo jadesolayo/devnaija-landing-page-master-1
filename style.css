@@ -74,6 +74,7 @@ header {
   margin-left: 0.5rem;
 }
 .logo-tagline h1 {
+  font-weight: 600;
   font-size: 1.7rem;
   color: var(--Blue);
 }
@@ -108,6 +109,7 @@ header {
   text-decoration: none;
 }
 .heading2 {
+  font-weight: 600;
   font-size: 2.2rem;
   color: var(--Blue);
 }
@@ -184,6 +186,7 @@ header {
 #heading4,
 #heading6,
 #heading7 {
+  font-weight: 600;
   text-align: center;
   font-size: 2.3rem;
   text-transform: uppercase;
@@ -216,6 +219,7 @@ header {
   text-align: left;
 }
 .heading5 {
+  font-weight: 600;
   margin-top: 1rem;
 }
 .course-copy {
@@ -321,6 +325,7 @@ header {
     width: 100%;
   }
   .heading2 {
+    font-weight: 600;
     font-size: 1.4rem;
     width: 100%;
     text-align: center;
