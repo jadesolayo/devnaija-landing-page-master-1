@@ -199,6 +199,7 @@ header {
 }
 .about-text {
   width: 70%;
+  margin-right: 2rem;
 }
 @media (max-width: 850px) {
   .about-devnaija {
