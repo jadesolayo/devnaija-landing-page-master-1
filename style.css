@@ -144,7 +144,7 @@ header {
   padding: 2rem;
   margin-top: 2rem;
   padding-left: 4rem;
-  padding-right: 4rem;
+  paddiright: 4rem;
 }
 .question-copy3 {
   font-weight: 600;
@@ -193,6 +193,9 @@ header {
   justify-content: space-between;
   display: flex;
   align-items: center;
+}
+.about-text {
+  width: 70%;
 }
 @media (max-width: 850px) {
   .about-devnaija {
@@ -2302,8 +2305,29 @@ a.active {
 }
 
 .test2 {
-  margin-left: 1rem;
-  width: 40%;
+  margin-left: 2rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.test2 p,
+.test3 p {
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
+.esther {
+  padding-top: 1rem;
+}
+.test3 {
+  width: 50%;
+  margin-inline: auto;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 15px;
 }
 @media (max-width: 850px) {
   .question-section {
@@ -2328,6 +2352,14 @@ a.active {
     width: 100%;
   }
   .test2 {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 1rem;
+  }
+  .test3 {
+    width: 100%;
+  }
+  .about-text {
     width: 100%;
   }
 }
