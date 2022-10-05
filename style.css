@@ -184,6 +184,9 @@ header {
 .testimonials {
   padding: 2rem;
 }
+.trending-programs{
+  margin-top: 2rem;
+}
 .about-devnaija {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -460,6 +463,12 @@ header {
     width: 92%;
     margin-right: 0.5rem;
   }
+}
+.heading-meet{
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
 }
 
 /* Tailwind */
