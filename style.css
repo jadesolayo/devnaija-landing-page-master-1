@@ -2309,7 +2309,7 @@ a.active {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   width: 50%;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 15px;
 }
 .test2 p,
@@ -2318,7 +2318,7 @@ a.active {
   padding-top: 0.5rem;
 }
 .esther {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 .test3 {
   width: 50%;
@@ -2326,7 +2326,7 @@ a.active {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   padding: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   border-radius: 15px;
 }
 @media (max-width: 850px) {
