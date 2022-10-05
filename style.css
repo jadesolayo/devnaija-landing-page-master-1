@@ -144,7 +144,7 @@ header {
   padding: 2rem;
   margin-top: 2rem;
   padding-left: 4rem;
-  paddiright: 4rem;
+  padding-right: 4rem;
 }
 .question-copy3 {
   font-weight: 600;
@@ -184,7 +184,7 @@ header {
 .testimonials {
   padding: 2rem;
 }
-.trending-programs{
+.trending-programs {
   margin-top: 2rem;
 }
 .about-devnaija {
@@ -465,7 +465,7 @@ header {
     margin-right: 0.5rem;
   }
 }
-.heading-meet{
+.heading-meet {
   margin-top: 2rem;
   font-size: 2.5rem;
   font-weight: 600;
@@ -861,7 +861,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+
   /* 2 */
 }
 
