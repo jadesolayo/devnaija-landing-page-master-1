@@ -242,7 +242,7 @@ header {
   margin-left: 1rem;
 }
 .course-img img {
-  text-align: center;
+  margin-inline: auto;
   height: 300px;
 }
 .course-content {
