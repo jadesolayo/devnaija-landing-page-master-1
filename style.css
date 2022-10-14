@@ -230,11 +230,25 @@ header {
   font-size: 2.3rem;
   text-transform: uppercase;
 }
-.courses-wrapper {
+
+.courses {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+.backend-courses {
+  justify-content: space-evenly;
+}
+.courses-wrapper h2 {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.front-end-copy,
+.back-end-copy {
+  padding: 1rem 4rem;
+}
+
 .course {
   width: 30%;
   margin-top: 1rem;
@@ -248,21 +262,39 @@ header {
 .course-content {
   padding: 2rem;
 }
+.fullstack {
+  margin-top: 2rem;
+}
+.course4,
+.course-full-front {
+  width: 40%;
+}
+.course7, .course8 {
+  margin-inline: auto;
+  width: 50%;
+}
+.game-dev{
+  margin-top: 1rem;
+}
 .course-btn {
   padding: 10px 25px;
   border: none;
   border-radius: 10px;
   background-color: var(--Blue);
   color: var(--White);
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: left;
 }
 .heading5 {
   font-weight: 600;
+  font-size: 1.1rem;
   margin-top: 1rem;
 }
 .course-copy {
   padding-top: 1rem;
+}
+.backend {
+  margin-top: 2rem;
 }
 
 .why-section {
@@ -414,12 +446,28 @@ header {
   #heading4,
   #heading6,
   #heading7 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 700;
   }
+  #heading6 {
+    margin-top: 2rem;
+  }
+
   .trending-programs {
     padding: 1rem;
   }
-  .courses-wrapper {
+  .note-cont h3 {
+    margin-top: 1rem;
+  }
+  .courses-wrapper h2 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .front-end-copy,
+  .back-end-copy {
+    padding: 1.5rem;
+  }
+  .courses {
     flex-direction: column;
     width: 100%;
   }
@@ -2265,7 +2313,7 @@ a.active {
   }
 }
 .classes-copy {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding-top: 0rem;
   font-weight: 600;
 }
