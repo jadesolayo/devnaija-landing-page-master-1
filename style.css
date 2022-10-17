@@ -236,6 +236,9 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
+.game-dev-courses{
+  justify-content: space-evenly;
+}
 .backend-courses {
   justify-content: space-evenly;
 }
@@ -269,9 +272,13 @@ header {
 .course-full-front {
   width: 40%;
 }
-.course7, .course8 {
+.course7 {
   margin-inline: auto;
   width: 50%;
+}
+
+.csharp, .unity{
+  margin-top: 1rem;
 }
 .game-dev{
   margin-top: 1rem;
