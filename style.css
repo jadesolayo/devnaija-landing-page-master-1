@@ -116,6 +116,10 @@ header {
 .landing-page-copy {
   padding-top: 0.5rem;
 }
+.money{
+  margin-top: 1rem;
+}
+
 
 #join-us-btn {
   padding: 15px 50px;
@@ -124,7 +128,7 @@ header {
   background-color: var(--Blue);
   color: var(--White);
   font-size: 1.2rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   text-align: left;
 }
 #join-us-btn:hover {
