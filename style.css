@@ -206,6 +206,9 @@ header {
   margin-right: 2rem;
 }
 @media (max-width: 850px) {
+  .money{
+    text-align: center;
+  }
   .about-devnaija {
     margin-top: 2rem;
     padding: 1.5rem;
