@@ -116,10 +116,9 @@ header {
 .landing-page-copy {
   padding-top: 0.5rem;
 }
-.money{
+.money {
   margin-top: 1rem;
 }
-
 
 #join-us-btn {
   padding: 15px 50px;
@@ -144,21 +143,32 @@ header {
 }
 .questions {
   border: 1px solid var(--Blue);
-  width: 92%;
+  width: 100%;
   padding: 2rem;
   margin-top: 2rem;
   padding-left: 4rem;
   padding-right: 4rem;
 }
-.question-wrapper{
+.question-wrapper {
   display: flex;
   align-items: center;
+  margin-top: 2rem;
   justify-content: center;
 }
-.question-img{
+.questions ul {
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+}
+.questions ul li {
+  list-style-type: disc;
+}
+.question-img {
   width: 40%;
 }
-.question-copy-cont{
+.question-copy-cont {
   margin-left: 3rem;
   width: 50%;
 }
@@ -179,11 +189,11 @@ header {
   font-weight: 500;
   padding-top: 1.5rem;
 }
-.question-copy2{
-    font-weight: 500;
-    margin-top: 2rem;
-    font-size: 1.1rem;
-  }
+.question-copy2 {
+  font-weight: 500;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
 .questions ul li {
   padding-top: 1rem;
 }
@@ -224,18 +234,21 @@ header {
   margin-right: 2rem;
 }
 @media (max-width: 850px) {
-  .question-wrapper{
+  .questions ul li {
+    margin-left: .5rem;
+}
+  .question-wrapper {
     flex-direction: column;
   }
-  .question-img{
+  .question-img {
     width: 100%;
   }
-  .question-copy-cont{
+  .question-copy-cont {
     margin-left: 0;
     width: 100%;
   }
 
-  .money{
+  .money {
     text-align: center;
   }
   .about-devnaija {
@@ -272,7 +285,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
-.game-dev-courses{
+.game-dev-courses {
   justify-content: space-evenly;
 }
 .backend-courses {
@@ -313,10 +326,11 @@ header {
   width: 50%;
 }
 
-.csharp, .unity{
+.csharp,
+.unity {
   margin-top: 1rem;
 }
-.game-dev{
+.game-dev {
   margin-top: 1rem;
 }
 .course-btn {
@@ -469,19 +483,11 @@ header {
     width: 100%;
     padding: 1rem;
   }
-  
+
   .question-copy3 {
     font-weight: 500;
   }
-  .questions ul {
-    font-weight: 500;
-    font-size: 1.05rem;
-    padding-top: 1rem;
-    margin-left: 0.5rem;
-  }
-  .questions ul li{
-    list-style-type: disc;
-  }
+
   .our-mission-video {
     width: 100%;
     margin-top: 3rem;
