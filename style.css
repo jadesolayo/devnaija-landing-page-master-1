@@ -235,8 +235,8 @@ header {
 }
 @media (max-width: 850px) {
   .questions ul li {
-    margin-left: .5rem;
-}
+    margin-left: 0.5rem;
+  }
   .question-wrapper {
     flex-direction: column;
   }
